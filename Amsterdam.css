@@ -1,0 +1,124 @@
+header {
+    background-image: url("afbeeldingen/Amsterdam.png");
+    background-size: 95%;
+    width: 100%;
+    height: 7em;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.links{
+    background-color: white;
+    width: 16.6%;
+    height: 48em;
+    display: inline-block;
+}
+
+.rechts{
+    background-color: rgb(19, 19, 255);
+    width: 75%;
+    height: 48em;
+    float: right;
+}
+
+.kolom1{
+    background-color: rgb(220, 4, 4);
+    width: 27%;
+    height: 48em;
+    float: left;
+}
+
+.kolom2{
+    background-color: white;
+    width: 73%;
+    height: 48em;
+    float: left;
+}
+
+f1, f2, f3, f4, f5{
+    font-family: fantasy;
+    margin-top: 1px;
+    font-size: smaller;
+
+}
+
+ul {
+    padding-left: 1px;
+}
+
+h1{
+    font-size: 200%;
+    transform: rotate(-90deg);
+    margin-top: 6em;
+    margin-right: 15%;
+    padding: 20%;
+    font-size: 18px;
+}
+
+.rl{
+    float: left;
+    width: 100%;
+    height: 30em;
+    text-align: center;
+    font-family: cursive;
+}
+
+.rl img {
+    float: right;
+}
+
+
+.rr{
+    float: left;
+    height: 30em;
+    width: 100%;
+    text-align: center;
+    font-family: cursive;
+    font-size: smaller;
+}
+
+.rr img{
+    float: right;
+    height: 10em;
+    width: 50%;
+}
+
+
+footer{
+    margin: 0px;
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(220, 4, 4);
+    height: 3em;
+    text-align: center;
+    font-family: fantasy;
+}
+
+@media only screen and (min-height: 920px) {
+    header  {
+        background-size: 90%;
+        height: 10em;
+}
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .rr img{
+        width: 30%;
+    }
+
+    .rl img{
+        width: 30%;
+    }
+
+    header  {
+        background-size: 42%;
+        height: 10em;
+
+}
+.rl{
+    height: 20em;
+}
+}
